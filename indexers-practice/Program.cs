@@ -21,13 +21,12 @@ namespace IndexersPractice
             {
                 Console.WriteLine($"Teammate name: {person.Name}\n" +
                 $"Teammate age: {person.Age} ");
-                Console.ReadLine();
             }
             else
             {
                 Console.WriteLine($"Cannot find a person named: {name}");
             }
-
+            Console.ReadLine();
         }
     }
 }
